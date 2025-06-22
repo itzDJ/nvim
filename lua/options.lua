@@ -27,10 +27,6 @@ vim.opt.listchars = {
 -- Removes weird gray column on the left in default macOS terminal
 vim.opt.signcolumn = "no"
 
--- Required for nvim-colorizer
--- TODO: Make this and nvim-colorizer only load if the terminal supports it
-vim.opt.termguicolors = true
-
 -- 7 lines max show up in CMP's completion menu
 vim.opt.pumheight = 7
 

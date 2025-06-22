@@ -4,12 +4,9 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-        require("github-theme").setup({
-            options = { transparent = true },
-        })
-
-        -- If `echo $COLORTERM` returns 'truecolor\n' then enable the theme
+        -- If `echo $COLORTERM` returns 'truecolor\n' then enable truecolor and the theme
         if io.popen("echo $COLORTERM"):read("*a") == "truecolor\n" then
+            vim.opt.termguicolors = true
             vim.cmd("colorscheme github_dark")
         end
     end,
