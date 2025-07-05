@@ -1,9 +1,9 @@
-# djvim
+# DJ's neovim config
 
 ## Install
 
 ```bash
-git clone https://github.com/itzDJ/djvim ~/.config/nvim && nvim
+git clone https://github.com/itzDJ/nvim ~/.config/nvim && nvim
 ```
 
 ## Uninstall
