@@ -1,5 +1,7 @@
 # DJ's neovim config
 
+NOTE: Use a terminal like [ghostty](https://ghostty.org/) for truecolor support and NerdFonts OOTB
+
 ## Install
 
 ```bash
