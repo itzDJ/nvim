@@ -34,6 +34,9 @@ vim.opt.pumheight = 7
 vim.opt.ignorecase = true
 vim.opt.smartcase = true -- Override ignorecase if the search pattern contains uppercase characters
 
+-- Enable truecolor support
+vim.opt.termguicolors = true
+
 -- Remove the default popup-menu (on right click) without disabling mouse
 vim.cmd([[
     aunmenu PopUp
